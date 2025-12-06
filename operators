@@ -37,4 +37,43 @@ print(ass_a)
 #bitwise
 print(a&b)
 print(a^b)
-print(a|b
+print(a|b)
+
+#identity operator
+#compares identity operator as 2types is operator is not operator id operator equality operator(==)
+i_a="divya"
+
+print(id("divya"))
+
+list_a="divya"
+list_b="divya"
+print(list_a==list_b)
+
+print(list_a is list_b)
+
+print(list_a is not list_b)
+
+#membership operator: checks availability or existence of a value in specified sequence
+#a sequence can be a string, tuple, list, or dictionary.
+#2 types in operator (in), not in operator(not in)
+
+
+m_a=[3,9,21,18]
+m_b=3
+print(m_b in m_a)
+
+print(m_b not in m_a)
+
+m_a1="divya panduranga naik"
+m_b1="Naik"
+print(m_b1 in m_a1)
+print(m_b1 not in m_a1)
+
+#bitwise operator
+b_a=2
+b_b=4
+print(bin(b_a & b_b))
+print(b_a & b_b)
+print(b_a | b_b)
+print(bin(b_a | b_b))
+
