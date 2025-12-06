@@ -1,0 +1,40 @@
+#arithmatic
+a=6
+b=2
+c=a+b
+print("Try programiz.pro",c)
+d=a-b
+print(d)
+c=a*b
+print(c)
+d=a/b
+print(d)
+e=a%b
+print(e)
+f=a**b
+print(f)
+g=a//b
+print(g)
+
+#comparison
+print(a>b)
+print(a>=b)
+print(a<b)
+print(a<=b)
+print(a==b)
+print(a!=b)
+
+#assignment 
+ass_a=10
+ass_b=5
+ass_a += ass_b
+print(ass_a)
+ass_a -= ass_b
+print(ass_a)
+ass_a &= ass_b
+print(ass_a)
+
+#bitwise
+print(a&b)
+print(a^b)
+print(a|b
