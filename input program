@@ -15,3 +15,31 @@ difference = abs(boy_age - girl_age)
 
 print(boy_name + " likes " +girl_name+ " the age diff boy and gir  " +str(difference)+" of" + "real age of both boy and girl are " +str(boy_age) + " and "+str(girl_age))
 print(f"{boy_name} likes {girl_name} the age difference  of {boy_age} and {girl_age}")
+
+#takes input of username and print
+a =input("enter your name: ")
+print("Hello", a)
+
+#add two number from user and also print there sum
+a1=int(input("enter first number:"))
+a2=int(input("enter secound number:"))
+print("the sum ", a1+a2)
+
+#Enter price and GST, print total.
+a11=float(input("enter first number:"))
+a12=float(input("enter secound number:"))
+print("the sum ", a11+a12)
+
+#enter 3 number in single line and print there avg
+aa, ab, ac = map(float, input("Enter 3 numbers: ").split())
+average = (aa + ab + ac) / 3
+print("Average =", int(average))
+
+#Take a float number as input and print its square.
+Sq_a=float(input("enter a no:"))
+sq_b=Sq_a*Sq_a
+print("square: ",sq_b)
+
+#Take list input from user
+nums = list(map(int, input("Enter numbers: ").split()))
+print(nums)
