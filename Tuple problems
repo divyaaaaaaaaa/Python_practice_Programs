@@ -1,0 +1,21 @@
+#adding two tupple
+my_tuple = ("apple", "banana", "cherry")
+numbers_tuple = (1, 2, 3, 4)
+t=my_tuple+numbers_tuple 
+print(t)
+
+#Using Type Conversion to Append Elements
+a=(1,2,3)
+b=list(a)
+print(b)
+b.append(4)
+print(b)
+a=tuple(b)
+print(a)
+#b.append(4)
+'''
+Adding Elements with * (Unpacking) Operator'''
+a = (1, 2, 3)
+b = (4, 5)
+c = (*a, *b)  # Unpacking the tuples and combining them
+print(c)
