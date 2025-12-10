@@ -1,0 +1,22 @@
+#output see 
+#tuple to get total count of item we use len and count is to check like duplicate element appearence ofitem
+fruits=("apple","banana","grapes","apple")
+print(fruits.count("apple"))
+print(fruits.count("banana"))
+print(len(fruits))#
+
+"""
+list in a list we are using slicing and placing a new single list of more than one item it will take one by one item of new list and insert to the slicing position
+as ['apple', 'kiwi', 'mango', 'cherry']"""
+
+mylist = ['apple', 'banana', 'cherry']
+mylist[1:2] = ['kiwi', 'mango']
+print(mylist)
+#print(mylist[2])#o/p kiwi
+'''
+list in a list we are using slicing and placing a new double list of more than one item it will take as list item of new list and insert to the slicing position
+as ['apple', ['kiwi', 'mango'], 'cherry']'''
+
+mylist = ['apple', 'banana', 'cherry']
+mylist[1:2] = [['kiwi', 'mango']]
+print(mylist)
