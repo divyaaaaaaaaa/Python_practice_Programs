@@ -1,4 +1,4 @@
-#output see 
+#output see screenshot 71.png
 #tuple to get total count of item we use len and count is to check like duplicate element appearence ofitem
 fruits=("apple","banana","grapes","apple")
 print(fruits.count("apple"))
