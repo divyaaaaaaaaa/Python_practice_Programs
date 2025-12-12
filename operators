@@ -66,8 +66,8 @@ print(m_b not in m_a)
 
 m_a1="divya panduranga naik"
 m_b1="Naik"
-print(m_b1 in m_a1)
-print(m_b1 not in m_a1)
+print(m_b1 in m_a1)#False
+print(m_b1 not in m_a1)#true
 
 #bitwise operator
 b_a=2
