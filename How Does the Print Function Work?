@@ -1,0 +1,11 @@
+                                          How Does the Print Function Work?
+Every programming language has some way to output data to the terminal with a built-in method, function, property, or keyword.
+In Python, you can use the print function to print data to the terminal. 
+
+write a simple Hello world! program.
+print('Hello world!') # Hello world!
+
+You can also use the print function to show multiple values, or arguments, at once by separating them with commas. For example:
+   print('My favorite colors are', 'blue', 'green', 'red')# Output: My favorite colors are blue green red
+Python automatically adds a space between each item when you separate them with commas. This is helpful when you want to print several pieces of information together.
+
