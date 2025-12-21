@@ -1,0 +1,23 @@
+a,b=3,5
+print(f"before swapping value a & b is {a} & {b}")
+a,b=b,a
+print(f"after swapping a & b is {a} & {b}")
+
+#swappint without third variable
+a1=4
+b1=6
+print(f"before swapping value a & b is {a1} & {b1}")
+a1=a1+b1
+b1=a1-b1
+a1=a1-b1
+print(f"after swapping a & b is {a1} & {b1}")
+
+#swapping with using third variable
+a11=7
+b11=9
+print(f"before swapping the value of a and b will be {a11},{b11}")
+temp=0
+temp = a11
+a11 = b11
+b11 = temp
+print(f"after swapping the value of a and b will be {a11},{b11}")
