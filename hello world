@@ -1,1 +1,14 @@
 print("hello word")
+
+my_str_1 = 'Hello'
+my_str_2 = "World"
+
+print(my_str_1+" " + my_str_2)#o/p:Hello World
+
+msg = "It's a sunny day"
+quote = 'She said, "Hello World!"'
+print(f"{msg} {quote}")#o/p:It's a sunny day She said, "Hello World!"
+
+msg = 'It\'s a sunny day'
+quote = "She said, \"Hello!\""
+print(f"{msg} {quote}")#o/p:It's a sunny day She said, "Hello!"
