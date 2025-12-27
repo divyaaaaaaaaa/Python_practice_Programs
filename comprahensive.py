@@ -33,7 +33,9 @@ ddl_1={item:len(item) for item in l_1}
 print(ddl_1)
 
 #hw
-#Create a dictionary of 5 items with their prices. Write a program that calculates the total price of all items using a for loop.
-iteam_dic={'pencil':5,'eraser':5,"pen":10,"book":50}
-item={int(value) for key,value in (iteam_dic).items() }
-print(item)
+#Create a list of Kannada foods. Use list comprehension to create a new list where each food name is in uppercase.
+
+food_type=["idli","veg palav","chicken birayani"]
+food_t=[food.upper() for food in food_type]
+print(food_t)
+
