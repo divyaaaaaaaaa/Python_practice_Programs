@@ -1,0 +1,6 @@
+Remember:
+
+() → for print()
+{} → to show variable values inside an f-string.
+
+Added Python basics: print() function and f-string formatting
